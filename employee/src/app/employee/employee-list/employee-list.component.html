@@ -1,0 +1,9 @@
+<div>
+    <ul class="nav-items">
+        <div *ngFor="let emp of employees">
+            <li>
+                <a routerLink="/emp-list/{{emp.id}}">{{emp.name}}</a>
+            </li>
+        </div>
+    </ul>
+</div>

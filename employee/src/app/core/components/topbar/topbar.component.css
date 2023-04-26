@@ -1,0 +1,10 @@
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.active{
+    color: red;
+    text-decoration: none;
+}
