@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 0px;
+}
+
+.header{
+    padding: 20px 20px;
+    /* border: 1px solid black; */
+    background-color: rgb(233, 233, 254);
+}
+
+.header .nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;    
+}
+
+.header .nav-items .items{
+    padding: 10px 20px;
+}
+
+.header .nav-items .items a{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+}
+
+.header .nav-items .active{
+    background-color: rgb(169, 169, 169);
+    padding: 10px 20px;
+}
